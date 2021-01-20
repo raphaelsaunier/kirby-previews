@@ -192,12 +192,15 @@
 /* Structure field
 ---------------------------------------*/
 
-.k-structure-field-preview {
-	.structure-entries-preview {
+.k-blocks-field-preview {
+	.block-type {
 		display: inline-block;
 		padding: 0.2rem 0.5rem;
 		background: rgba($color-background, 0.75);
 		text-transform: uppercase;
 		font-size: $font-size-tiny;
 	}
+    .block-content {
+        padding: 0.2rem 0.5rem;
+    }
 }
